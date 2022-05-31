@@ -14,9 +14,12 @@ public:
 
 	bool set_num1(double &num_1)
 	{
-		return (num_1 == 0 || num_1 != 0) ? true : false;
+		return (num_1 == 0) ? true : false;
 	}
-	
+	bool set_num2(double &num2)
+	{
+		return (num_2 == 0) ? true : false;
+	}
 	
 	
 	double add(double num_1, double num_2) //+
@@ -89,6 +92,17 @@ int main()
 	{
 		calc.read(calc.num_1, calc_2.num_2);  //read keyboard
 		calc.set_num1(calc.num_1);
+		if (calc.num_1 == false)
+		{
+			std::cout << "Неверный ввод!\n ";
+			continue;
+		}
+		calc.set_num2(calc.num_2);
+		if (calc.num_2 == false)
+		{
+			std::cout << "Неверный ввод!\n ";
+			continue;
+		}
 		
 		
 
