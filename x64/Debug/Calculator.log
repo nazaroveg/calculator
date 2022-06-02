@@ -1,4 +1,4 @@
 ﻿  Calculator.cpp
-C:\Users\nemez\source\repos\Calculator\Calculator.cpp(95,11): warning C4805: ==: небезопасное смешение типа "double" и типа "bool" в операции
-C:\Users\nemez\source\repos\Calculator\Calculator.cpp(101,11): warning C4805: ==: небезопасное смешение типа "double" и типа "bool" в операции
-  Calculator.vcxproj -> C:\Users\nemez\source\repos\Calculator\x64\Debug\Calculator.exe
+C:\Users\newya\source\repos\calculator\Calculator.cpp(121,7): warning C4805: ==: небезопасное смешение типа "double" и типа "bool" в операции
+C:\Users\newya\source\repos\calculator\Calculator.cpp(127,7): warning C4805: ==: небезопасное смешение типа "double" и типа "bool" в операции
+  Calculator.vcxproj -> C:\Users\newya\source\repos\calculator\x64\Debug\Calculator.exe
